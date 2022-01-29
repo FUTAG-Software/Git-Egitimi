@@ -8,9 +8,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         fun0()
+        fun1()
     }
 
     fun fun0() {
         println("fun0")
+    }
+
+    fun fun1(){
+        println("fun1")
     }
 }
